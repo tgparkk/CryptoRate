@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="#EEEEEE">
+
+    <!-- 환율 정보 표시 -->
+    <TextView
+        android:id="@+id/tvExchangeRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USD → KRW: 로딩중..."
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <!-- 비트코인 가격 정보 표시 -->
+    <TextView
+        android:id="@+id/tvBitcoinPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BTC: 로딩중..."
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginTop="4dp" />
+
+    <!-- 새로고침 버튼 -->
+    <Button
+        android:id="@+id/btnRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="새로고침"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
